@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+header {
+    background-color: #17a2b8; /* Matching blue */
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Image Boxes */
+.image-box {
+    width: 100%;
+    height: 300px; /* Set a fixed height */
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#image1 {
+    background-image: url('mental-health/images/image1.jpg);
+}
+
+#image2 {
+    background-image: url('mental-health/images/image2.jpg');
+}
+
+#image3 {
+    background-image: url('mental-health/images/image3.jpg');
+}
+
+/* Section Background Colors */
+section.bg-light {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section.bg-gradient-info {
+    background: linear-gradient(90deg, #17a2b8, #008c9e);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Style for Sections */
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #17a2b8;
+}
+
+.card-body {
+    font-size: 1.1rem;
+}
+
+ul li {
+    font-size: 1.1rem;
+    padding-left: 20px;
+    position: relative;
+}
+
+ul li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #17a2b8;
+    font-size: 1.5rem;
+}
+
+.card-body ul li {
+    margin-bottom: 12px;
+}
+
+/* Positive Affirmations Section */
+section.bg-info {
+    background-color: #17a2b8;
+    color: #fff;
+    padding: 40px 20px;
+    font-style: italic;
+}
+
+/* Contact Form Section */
+form {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+form .btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+}
+
+form .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+}
