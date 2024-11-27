@@ -23,17 +23,7 @@ header {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-#image1 {
-    background-image: url('mental-health/images/image1.jpg);
-}
 
-#image2 {
-    background-image: url('mental-health/images/image2.jpg');
-}
-
-#image3 {
-    background-image: url('mental-health/images/image3.jpg');
-}
 
 /* Section Background Colors */
 section.bg-light {
